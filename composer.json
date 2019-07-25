@@ -1,0 +1,5 @@
+{
+    "require": {
+        "msbios/msbios": "^1.0"
+    }
+}
