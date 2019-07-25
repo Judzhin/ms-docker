@@ -1,2 +1,10 @@
-version: '3.3'
+version: '3'
+
 services:
+  ms-docker:
+    image: nginx
+    build: .
+    ports:
+      - "1986:3107"
+    volumes:
+      - .:/var/www

@@ -7,6 +7,7 @@
         "d:p:s": "docker ps -a",
         "d:r:h": "docker run -h msbios.localhost -it ubuntu bash",
         "d:i": "docker inspect <name>",
-        "d:s": "docker stop <name>"
+        "d:s": "docker stop <name>",
+        "d:rm:all": "docker rm -v $(docker ps -aq -f status=exited)"
     }
 }
