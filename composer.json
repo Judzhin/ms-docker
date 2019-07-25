@@ -1,5 +1,12 @@
 {
     "require": {
         "msbios/msbios": "^1.0"
+    },
+    "scripts": {
+        "d:r:u": "docker run -it ubuntu bash",
+        "d:p:s": "docker ps -a",
+        "d:r:h": "docker run -h msbios.localhost -it ubuntu bash",
+        "d:i": "docker inspect <name>",
+        "d:s": "docker stop <name>"
     }
 }
